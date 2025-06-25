@@ -1,0 +1,13 @@
+{
+  "name": "presentation-app",
+  "version": "1.0.0",
+  "engines": { "node": ">=20.x" },
+  "scripts": {
+    "start": "node backend/dist/index.js",          // або npm --prefix backend start
+    "heroku-postbuild": "npm --prefix frontend install && npm --prefix frontend run build"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "...": "..."
+  }
+}
