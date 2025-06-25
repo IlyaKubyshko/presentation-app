@@ -1,0 +1,10 @@
+cat <<EOF >> .gitignore
+# Node / React / Vite
+node_modules/
+dist/
+build/
+# середовище
+# linter/IDE
+.vscode/
+.idea/
+EOF
